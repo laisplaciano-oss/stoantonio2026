@@ -33,3 +33,35 @@ img {
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.cartao {
+    width: 300px;
+    padding: 25px;
+    margin: 50px auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.cartao img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.cartao h1 {
+    font-weight: bold;
+}
+
+.cartao p {
+    text-align: center;
+}
+
+.cartao a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
